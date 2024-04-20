@@ -1,19 +1,16 @@
 import "./App.css";
 import LandingPage from "./LandingPage";
 import WeatherForcast from "./Weather Forecast/WeatherForcast";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      {/* <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="weatherforecast" element={<WeatherForcast/>} />
-        </Routes>
-      </BrowserRouter> */}
-      <LandingPage />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/weatherforecast" element={<WeatherForcast />} />
+      </Routes>
+    </Router>
   );
 }
 

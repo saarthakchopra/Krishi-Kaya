@@ -73,7 +73,7 @@
     animation: marquee 10s linear infinite;
     /* photo behind text */
     background-image: url(./assets/text_behind.jpg);
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text; 
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     -webkit-text-fill-color: transparent;
@@ -123,7 +123,8 @@
     border: 2px solid rgb(28, 3, 3);
   }
   .con {
-    height: 50%;
+    height: 54%;
+    
   }
   .f_img1 {
     background-image: url("./assets/inventory.png");
@@ -144,10 +145,25 @@
     font-size: 3.5vmin;
     padding: 1vmin;
     margin-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
   .f p {
     padding: 1vmin;
     font-size: 3vmin;
+    margin-top: 0;
+  }
+  .linkk{
+    text-decoration: none;
+    color: #ebe7c9;
+    margin-top: 0;
+    margin-bottom: 0.2vmin;
+    font-size: 3vmin;
+  }
+  .but{
+    background-color: rgb(19, 11, 2);
+    margin-bottom: 1vmin;
+   
   }
   .footer {
     background-image: url("./assets/footer.jpg");

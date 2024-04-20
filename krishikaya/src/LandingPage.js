@@ -81,9 +81,9 @@ export default function LandingPage() {
                   <h3>Weather Prediction</h3>
                   <p>
                     Accurate forecasts empower farmers for informed decision-making
-                    and planning.
-                    {/* <button className=''><Link className="linkk" to='/weatherforecast'>Check</Link></button> */}
+                    and planning. 
                   </p>
+                  <button className='but'><Link className="linkk" to='/weatherforecast'>Check</Link></button>
                 </div>
               </div>
             </div>
