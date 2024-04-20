@@ -210,7 +210,7 @@ export default function WeatherForcast() {
         </Grid>
         {appContent}
       </Grid>
-      <B
+      
     </Container>
     </div>
   );
